@@ -1,4 +1,5 @@
 import React from "react";
+// import Nav from "../components/Nav";
 
 function Home() {
   return (
@@ -7,5 +8,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;
