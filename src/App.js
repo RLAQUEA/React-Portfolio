@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
-import Nav from './components/Nav';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Header from './components/Header';
 
 class App extends Component {
   render() {
     return (
     <Router>
         <div>
-         <Nav/>
+         <Header/>
           <hr />
           <Switch>
               <Route exact path='/' component={Home} />
