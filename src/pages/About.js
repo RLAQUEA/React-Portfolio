@@ -17,11 +17,7 @@ class About extends Component {
     </div>
 
     <footer class="page-footer black">
-      <h3 class="contact">Contact</h3>
-      <ul>
-        <li class="flex-item">rlaquea14@gmail.com</li>
-        <li class="flex-item">(407)-923-7951</li>
-      </ul>
+      
     </footer>
     </div>
     );
