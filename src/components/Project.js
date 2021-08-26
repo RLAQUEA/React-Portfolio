@@ -15,23 +15,24 @@ function Project() {
                 <Row>
                     {/* Parks & Pages */}
                     <Col md="6"> <Card body className="text-center">
-                        <CardImg top width="100%" src={parksPagesImg} alt="Card image cap" />
+                     <CardImg top width="100%" src={parksPagesImg} alt="Card image cap" />
                         <CardBody>
-                            <CardTitle tag="h5">Parks & Pages</CardTitle>
-                            <CardSubtitle tag="h6" className="mb-2 text-muted"></CardSubtitle>
-                            <CardText>This application </CardText>
+                        <CardTitle tag="h5">Parks & Pages</CardTitle>
+                            {/* <CardSubtitle tag="h6" className="mb-2 text-muted"></CardSubtitle> */}
+                            {/* <CardText>This application </CardText> */}
                             <Button>Deployed Site</Button>
                             <Button>Github Repo</Button>
                         </CardBody>
                     </Card></Col>
 
                     {/* Cat Quiz */}
-                    <Col md="6"> <Card>
+                    <Col md="6"> <Card body className="text-center">
+                    
                         <CardImg top width="100%" src={catQuizImg} alt="Card image cap" />
                         <CardBody>
-                            <CardTitle tag="h5">Cat Quiz</CardTitle>
-                            <CardSubtitle tag="h6" className="mb-2 text-muted"></CardSubtitle>
-                            <CardText>This application </CardText>
+                        <CardTitle tag="h5">Cat Quiz</CardTitle>
+                            {/* <CardSubtitle tag="h6" className="mb-2 text-muted"></CardSubtitle> */}
+                            {/* <CardText>This application </CardText> */}
                             <Button>Deployed Site</Button>
                             <Button>Github Repo</Button>
                         </CardBody>
@@ -40,11 +41,12 @@ function Project() {
                 <Row>
                      {/* inMarket */}
                      <Col md="6"> <Card body className="text-center">
+                    
                         <CardImg top width="100%" src={inMarketHomeImg} alt="Card image cap" />
                         <CardBody>
-                            <CardTitle tag="h5">inMarket Real Estate App</CardTitle>
-                            <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-                            <CardText>This application </CardText>
+                        <CardTitle tag="h5">inMarket Real Estate App</CardTitle>
+                            {/* <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle> */}
+                            {/* <CardText>This application </CardText> */}
                             <Button>Deployed Site</Button>
                             <Button>Github Repo</Button>
                         </CardBody>
@@ -52,20 +54,16 @@ function Project() {
                     
                      {/* Weather Dashboard */}
                
-                <Col md="6"> <Card>
+                <Col md="6"> <Card body className="text-center">
                         <CardImg top width="100%" src={weatherDashImg} alt="Card image cap" />
                         <CardBody>
                             <CardTitle tag="h5">Weather Dashboard</CardTitle>
-                            <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-                            <CardText>This application </CardText>
+                            {/* <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle> */}
+                            {/* <CardText>This application </CardText> */}
                             <Button>Deployed Site</Button>
                             <Button>Github Repo</Button>
                         </CardBody>
                     </Card></Col>
-                    
-                  
-                    
-
                     {/* Final Project */}
                     {/* <Col md="6"> <Card body className="text-center">
                         <CardImg top width="100%" src={parksPagesImg} alt="Card image cap" />
@@ -79,7 +77,13 @@ function Project() {
                     </Card></Col> */}
                 </Row>
             </Container>
-        </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    </div>
     );
 }
 
