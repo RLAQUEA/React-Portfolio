@@ -1,5 +1,6 @@
 import React from "react";
 import { Parallax } from 'react-parallax';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
